@@ -274,3 +274,9 @@ The methods ordered by accuracy (from lowest to highest):
 3. Runge-Kutta
 4. Exact
 
+
+
+## Credits
+
+This paper and the source code have been written by Lev Chelyadinov, B18-06.
+The source code may be found on [GitHub](https://github.com/illright/de-practicum-f19).
