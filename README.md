@@ -13,6 +13,6 @@ The methods considered are:
 
 It features a GUI to plot the resulting graphs and local errors:
 
-![screenshot](image-20191102131832976.png)
+![screenshot](graphs.png)
 
 The source code is built using the MVC pattern.
