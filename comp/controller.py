@@ -14,11 +14,6 @@ class Controller:
         self.model.set_var('sf', float(self.view.step_page.sf_var.get()))
         self.model.set_var('sstep', float(self.view.step_page.sstep_var.get()))
 
-    def toggle_error(self):
-        self.error_shown = not self.error_shown
-        self.view.toggle_error.configure(text='Show graphs' if self.error_shown else 'Show local errors')
-        self.draw_graphs()
-
     def next_page(self):
         self.view_page = (self.view_page + 1) % 4
         self.draw_graphs()

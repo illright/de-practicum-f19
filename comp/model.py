@@ -11,7 +11,7 @@ class DENumericalMethod:
         self.derivative_expr = derivative_expr
 
     def compute(self, x0, y0, x_limit, step):
-        raise NotImplemented('Override this method in child classes.')
+        raise NotImplementedError('Override this method in child classes.')
 
 
 class Euler(DENumericalMethod):
